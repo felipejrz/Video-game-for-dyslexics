@@ -1,0 +1,1 @@
+if (entity_npc || entity_enemy) scr_player_animate_sprite();

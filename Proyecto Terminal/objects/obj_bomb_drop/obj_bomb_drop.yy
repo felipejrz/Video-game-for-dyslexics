@@ -1,0 +1,43 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bomb_drop",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_collectible","path":"objects/obj_p_collectible/obj_p_collectible.yy",},"propertyId":{"name":"collect_script","path":"objects/obj_p_collectible/obj_p_collectible.yy",},"value":"scr_collect_ammo",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_collectible","path":"objects/obj_p_collectible/obj_p_collectible.yy",},"propertyId":{"name":"collect_script_arg","path":"objects/obj_p_collectible/obj_p_collectible.yy",},"value":"[ITEM.BOMB, 1]",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/obj_p_entity/obj_p_entity.yy",},"value":"False",},
+  ],
+  "parent": {
+    "name": "Drops",
+    "path": "folders/Objetos/Fragmentos & Drops/Drops.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_p_collectible",
+    "path": "objects/obj_p_collectible/obj_p_collectible.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_bomb_drop",
+    "path": "sprites/spr_bomb_drop/spr_bomb_drop.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

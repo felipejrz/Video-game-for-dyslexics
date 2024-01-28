@@ -1,0 +1,1 @@
+scr_hurt_player(point_direction(x, y, obj_player.x, obj_player.y), 32, 4.5);

@@ -1,0 +1,47 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_item_shop",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_activate_script","path":"objects/obj_p_entity/obj_p_entity.yy",},"value":"scr_new_text_box",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_activate_args","path":"objects/obj_p_entity/obj_p_entity.yy",},"value":"[\"Descripcion del objeto\", 0, [\"6:Comprar\", \"0:No Gracias\"]]",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/obj_p_entity/obj_p_entity.yy",},"value":"False",},
+  ],
+  "parent": {
+    "name": "Items",
+    "path": "folders/Objetos/Items.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_p_entity",
+    "path": "objects/obj_p_entity/obj_p_entity.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"item","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"ITEM.BOMB","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"item_cost","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"item_amount","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+  ],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_items_ui",
+    "path": "sprites/spr_items_ui/spr_items_ui.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

@@ -1,0 +1,43 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_book",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_activate_script","path":"objects/obj_p_entity/obj_p_entity.yy",},"value":"scr_activate_liftable",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_activate_args","path":"objects/obj_p_entity/obj_p_entity.yy",},"value":"[id]",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_hit_script","path":"objects/obj_p_entity/obj_p_entity.yy",},"value":"scr_entity_solid",},
+  ],
+  "parent": {
+    "name": "Entitis",
+    "path": "folders/Objetos/Entitis.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_p_entity",
+    "path": "objects/obj_p_entity/obj_p_entity.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_book",
+    "path": "sprites/spr_book/spr_book.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

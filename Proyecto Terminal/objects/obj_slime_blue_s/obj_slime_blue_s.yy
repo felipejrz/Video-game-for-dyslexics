@@ -1,0 +1,42 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_slime_blue_s",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_enemy","path":"objects/obj_p_enemy/obj_p_enemy.yy",},"propertyId":{"name":"enemy_hp","path":"objects/obj_p_enemy/obj_p_enemy.yy",},"value":"10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_p_enemy","path":"objects/obj_p_enemy/obj_p_enemy.yy",},"propertyId":{"name":"enemy_damage_touch","path":"objects/obj_p_enemy/obj_p_enemy.yy",},"value":".5",},
+  ],
+  "parent": {
+    "name": "Enemy",
+    "path": "folders/Objetos/Entitis/Enemy.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_p_enemy",
+    "path": "objects/obj_p_enemy/obj_p_enemy.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_slime_blue_s",
+    "path": "sprites/spr_slime_blue_s/spr_slime_blue_s.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}
