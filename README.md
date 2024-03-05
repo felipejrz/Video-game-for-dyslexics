@@ -34,4 +34,4 @@ Agradecemos las contribuciones de la comunidad para mejorar y expandir este proy
 
 ## Licencia
 
-Este proyecto está bajo la licencia [nombre de la licencia]. Consulta el archivo `LICENSE.md` para obtener más detalles.
+Este proyecto está bajo la licencia Felipe Daniel Juárez Alvarez. Consulta el archivo `LICENSE.md` para obtener más detalles.
